@@ -13,6 +13,7 @@
 		032EFA1F2A355F8C00A142AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032EFA1D2A355F8C00A142AC /* Main.storyboard */; };
 		032EFA212A355F8C00A142AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032EFA202A355F8C00A142AC /* Assets.xcassets */; };
 		032EFA242A355F8C00A142AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032EFA222A355F8C00A142AC /* LaunchScreen.storyboard */; };
+		032EFA2C2A35622900A142AC /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032EFA2B2A35622900A142AC /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		032EFA202A355F8C00A142AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		032EFA232A355F8C00A142AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		032EFA252A355F8C00A142AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032EFA2B2A35622900A142AC /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		032EFA0B2A355F8B00A142AC = {
 			isa = PBXGroup;
 			children = (
+				032EFA2B2A35622900A142AC /* ModalViewController.swift */,
 				032EFA162A355F8B00A142AC /* ScreenTransition */,
 				032EFA152A355F8B00A142AC /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032EFA2C2A35622900A142AC /* ModalViewController.swift in Sources */,
 				032EFA1C2A355F8B00A142AC /* ViewController.swift in Sources */,
 				032EFA182A355F8B00A142AC /* AppDelegate.swift in Sources */,
 				032EFA1A2A355F8B00A142AC /* SceneDelegate.swift in Sources */,
